@@ -1,13 +1,15 @@
 # Contact book
 print("A SIMPLE CONTACT BOOK")
 
-# Create lists
-names = []
-ph_nos = []
-emails = []
 
 # Check for error
 try:
+    # Create lists
+    names = []
+    ph_nos = []
+    emails = []
+
+    # accept input
     rows = int(input("How many contact do you want to add? "))
     
     for i in range(rows):
